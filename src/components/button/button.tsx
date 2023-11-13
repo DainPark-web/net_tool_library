@@ -1,11 +1,12 @@
 import React from "react";
 
+interface ButtonProps {
+    label: string
+}
 
-const Button = () => {
+const Button = (props: ButtonProps) => {
     return (
-        <div>
-            Dina
-        </div>
+        <button>Button</button>
     )
 }
 
